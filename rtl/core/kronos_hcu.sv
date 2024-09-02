@@ -36,7 +36,6 @@ logic [2:0] funct3;
 
 // Hazard controls
 logic is_reg_write, csr_regwr;
-logic regwr_pending;
 logic rs1_hazard, rs2_hazard;
 logic [4:0] rpend;
 
